@@ -1,0 +1,24 @@
+{
+  "name": "dyszczo/wtyczka2",
+  "description": "Wtyczka pokazująca notice",
+  "authors": [
+    {
+      "name": "dyszczo",
+      "email": "krzysiek@wpdesk.pl"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.2"
+    },
+    "sort-packages": true
+  },
+  "require": {
+    "wpdesk/wp-notice": "^3.1"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  }
+}
